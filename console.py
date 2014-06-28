@@ -90,18 +90,3 @@ class Console:
 c = Console()
 c.run()
 
-"""
-# write data
-device.ctrl_transfer(bmRequestTypeOut, 0x61, 0, 0, "TESTTEST");
-print device.ctrl_transfer(bmRequestTypeIn, 0x60, 0, 0, 8);
-sleep(1)
-print device.ctrl_transfer(bmRequestTypeIn, 0x62, 0, 0,8);
-
-while True:
-	try:
-		ret = device.ctrl_transfer(bmRequestTypeIn, 0x60, 0, 0, 64)
-		if len(ret)>0:
-			sys.stdout.write(''.join([chr(x) for x in ret]))
-	except:
-		pass
-"""
