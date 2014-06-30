@@ -51,7 +51,7 @@ skull.bootloader.low_fuses=0xFF
 skull.bootloader.high_fuses=0xDA
 skull.bootloader.extended_fuses=0x05
 skull.bootloader.unlock_bits=0x3F
-skul.bootloader.lock_bits=0x0F
+skull.bootloader.lock_bits=0x0F
 
 skull.build.mcu=atmega328p
 skull.build.f_cpu=12000000L
