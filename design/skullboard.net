@@ -1,0 +1,31 @@
+unnamed_net29	EXT-1 ISP-2 
+unnamed_net28	R5-2 PWR-2 
+unnamed_net27	D+-2 R4-1 
+unnamed_net26	Z2-2 USB-3 R4-2 
+unnamed_net25	D-2 R3-2 
+unnamed_net24	USB-2 Z1-2 R3-1 R2-1 
+unnamed_net23	ISP-5 RESET-2 R1-2 U1-1 
+unnamed_net22	C8-2 XTAL-1 U1-10 
+unnamed_net21	C6-2 XTAL-2 U1-9 
+GND	Z2-1 USB-5 Z1-1 ISP-6 ISP-8 ISP-10 ISP-4 R5-1 CONN3-6 SW1/BOOT-1 C8-1 C6-1 U1-22 RESET-1 C7-2 U1-8 
+Vcc	CONN3-5 USB-1 R2-2 EXT-2 C7-1 R1-1 U1-7 U1-20 
+unnamed_net20	CONN3-4 D7-1 U1-13 
+unnamed_net19	CONN3-3 D6-1 U1-12 
+unnamed_net18	CONN3-2 D5-1 U1-11 
+unnamed_net17	D-1 CONN3-1 D4-1 U1-6 
+unnamed_net16	CONN2-8 D3-1 U1-5 
+unnamed_net15	D+-1 CONN2-7 D2-1 U1-4 
+unnamed_net14	CONN2-6 D1-1 U1-3 
+unnamed_net13	CONN2-5 D0-1 U1-2 
+unnamed_net12	CONN2-4 C5-1 U1-28 
+unnamed_net11	CONN2-3 C4-1 U1-27 
+unnamed_net10	CONN2-2 C3-1 U1-26 
+unnamed_net9	CONN2-1 C2-1 U1-25 
+unnamed_net8	CONN1-8 C1-1 U1-24 
+unnamed_net7	CONN1-7 C0-1 U1-23 
+unnamed_net6	PWR-1 CONN1-6 B5-1 ISP-7 U1-19 
+unnamed_net5	B4-1 CONN1-5 ISP-9 U1-18 
+unnamed_net4	CONN1-4 B3-1 ISP-1 SW1/BOOT-2 U1-17 
+unnamed_net3	CONN1-3 B2-1 U1-16 
+unnamed_net2	CONN1-2 B1-1 U1-15 
+unnamed_net1	CONN1-1 B0-1 U1-14 
