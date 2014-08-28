@@ -50,7 +50,7 @@ void stage1(char *code)
 }
 
 /**
- * Stage 2: D0 something
+ * Stage 3: D0 something
  *
  * When entered, this security level sends a string in 4PPM on D0 (during few seconds).
  * The string is extracted from memory and sent through helpers on pin D0.
@@ -159,7 +159,7 @@ void stage3(char *code)
 }
 
 /**
- * Stage 3: One Time Password
+ * Stage 2: One Time Password
  *
  * When entered, this security level displays an hexdump associated with an IV.
  *
@@ -263,9 +263,9 @@ void prng_string(PPRNG prng, char *buffer, int size)
 }
 
 /**
- * Random string generation.
+ * Random string num generation.
  *
- * Generates a random printables string.
+ * Generates a random printables string (with only nums).
  */
 
 void prng_nums(PPRNG prng, char *buffer, int size)
@@ -281,9 +281,9 @@ void prng_nums(PPRNG prng, char *buffer, int size)
 
 
 /**
- * Stage 3
+ * Stage 2
  *
- * IV, key and string randomly chosen, user is asked to devrypt.
+ * IV, key and string randomly chosen, user is asked to decrypt.
  * Two ways to solve this one:
  * 1. RE the code, find the crypto key and decrypt the payload (access code)
  * 2. Connect C0 to GND and wait for a stable biased PRNG. Offline decryption + exploit.
@@ -394,6 +394,16 @@ void stage2(char *code)
         }
     }
 }
+
+
+/**
+ * Stage 4
+ *
+ * VM stuff, see vm/vm.h.
+ *
+ * Contestants must reverse the vm bytecode, find out the correct passcode,
+ * and then the final url will be given. Led will blink too.
+ */
 
 void stage4(char *code)
 {
